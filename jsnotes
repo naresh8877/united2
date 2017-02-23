@@ -1,0 +1,40 @@
+variables:- variables as symbolic names for values uun your application. The name of variable called identifires
+
+variable hoisting:- variable in js that you can refer to a variable declared later, without getting an exception.
+ Function hoisting : for Function, only function declaration gets hoisted to the top and not the function expression.
+  foo();
+  function foo(){
+  console.log('bar');
+  }
+/* function expression
+baz();
+var baz = function() {
+console.log('bar2');
+};
+
+2) Global Variable : In web global object is window and we can access global variable using the window. variable
+
+3) Constants : we can create a read-only value . we cannot declare a constant with the same name as a function or variable in the same scope
+ function f() {};
+ const f = 5;// this will cause an error
+ function f() {
+ const g = 5;
+ var g;
+ }
+
+ 4) Converting strigs to numbers ; parseInt(), parseFloat()
+  5) do while :- statements repeats until a specificed condition evaluates to false
+      var i = 0;
+      do {
+      i += 1;
+      console.log(i);
+      }while(i < 5);
+6) while:  while statements executes its statements as long as a specified condition evalutes to true.
+         var n = 0;
+         var x = 0;
+         while(x < 3){
+         n++;
+         x += n;
+         }
+
+
